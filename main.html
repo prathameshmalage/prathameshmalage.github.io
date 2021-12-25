@@ -12,17 +12,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Prathamesh Malage</title>
   </head>
   <body style="font-family: 'Montserrat', sans-serif;">
-    <div class="jumbotron jumbotron-fluid" style="background-color: #F0F0F0;">
+    <nav class="navbar navbar-light bg-light">
+      <p class="navbar-brand">Prathamesh Malage</p>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto bold">
+          <li class="nav-item">
+            <a class="nav-link" href="#AboutMe">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Background">Background</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ContactResume">Contact & Resume</a>
+          </li>
+        </ul>
+      </div> 
+    </nav>
+    <div class="jumbotron jumbotron-fluid mt-4" style="background-color: #F0F0F0;">
       <div class="container">
         <h1 class="display-4 text-center">Prathamesh Malage</h1>
         <p class="lead text-center">Hey there 👋! Thank You for visiting my website.</p>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row" id="AboutMe">
       <div class="col-md-6 col-sm-12 p-5">
         <h2>About Me</h2>
           <div class="text-justify">
@@ -39,7 +59,7 @@
       </div>
     </div>
 
-    <div class="row m-3" style="background-color: #F0F0F0;">
+    <div class="row m-3" id= "Background" style="background-color: #F0F0F0;">
       <div class="col-md-4 col-sm-12 p-3">
         <b style="letter-spacing: 0.1cm;">- WORK EXPERIENCE</b>
       </div>
@@ -138,33 +158,22 @@
         <br>
       </div>
     </div>
-    
 
-    <div class="row">
-      <div class="col-7 p-5">My Background
-        <div class="p-3 text-justify">
-          <p>
-            I am a current graduate student at University of Maryland, College Park - Smith School . I have experience as <b>R&D consultant</b> at <b>Software AG</b> where I worked full time after my undergraduate.
-As a first year MSIS student at the Robert H. Smith School of Business, my focus is on how to process the data and get the hidden stories out from them. Also, this is one of the main reasons for choosing this as my career track where I can manipulate data to extract information and help businesses make an informed decision. My desire coupled with my proactivity makes me an excellent candidate.
-</p>
-<button class="btn btn-info"><i class="fa fa-download"></i><a class="link-info" href="./Malage_Prathamesh_Resume.pdf" download="Malage_Prathamesh_Resume">My Resume</a></button>  
-        </div>
-      </div>
-      <div class="col-5 p-5">Skills
-        <div>
+    <div class="text-center p-3" id="ContactResume" style="background-color: #F0F0F0;">
+      <div class="col-md-6 col-sm-12" style="margin: auto;">
+        <h2>Contact & Resume</h2>
+        <br>
+        <div class="m-3 p-1">
+          <h5><i class="fas fa-envelope"></i>&nbsp;<a class="link-primary" href = "mailto: prathameshmmalage@gmail.com">prathameshmmalage@gmail.com</a></h5>
           <br>
-          <ul>
-            <li class="list-group-item-action">Python</li>
-            <li class="list-group-item-action">R</li>
-            <li class="list-group-item-action">Structured Query Language</li>
-            <li class="list-group-item-action">Microsoft Office</li>
-            <li class="list-group-item-action">Google Suite</li>
-            <li class="list-group-item-action">JavaScript</li>
-            <li class="list-group-item-action">Node JS</li>
-          </ul>
+          <h5><i class="fab fa-linkedin-in"></i>&nbsp;<a class="link-primary" href="https://www.linkedin.com/in/prathamesh-malage/">Prathamesh Malage</a></h5>
+          <br>
+          <button class="btn btn-info"><i class="fa fa-download"></i><a class="link-info" href="./Malage_Prathamesh_Resume.pdf" download="Malage_Prathamesh_Resume">My Resume</a></button>
         </div>
+        <br>
       </div>
     </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
