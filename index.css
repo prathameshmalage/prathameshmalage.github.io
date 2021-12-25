@@ -13,9 +13,3 @@
 .bold{
     font-weight: 700;
 }
-
-@media (max-width: 544px){
-#ContactResume {
-    font-size: 10px;
-}
-}
