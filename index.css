@@ -42,6 +42,7 @@
 
 #name:hover{
     font-size: larger;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
