@@ -13,3 +13,35 @@
 .bold{
     font-weight: 700;
 }
+
+#AboutMe1:hover{
+    text-decoration: underline;
+}
+
+#AboutMe:hover{
+    font-weight: bolder;
+}
+
+#Background:hover{
+    font-weight: bolder;
+}
+
+#Background1:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#ContactResume:hover{
+    font-weight: bolder;
+}
+
+#ContactResume1:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#name:hover{
+    font-size: larger;
+    transition: 0.5s;
+}
+
