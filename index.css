@@ -37,16 +37,22 @@
     text-decoration: underline;
 }
 
+#name{
+    font-size: 100%;
+    transition: font-size 0.5s;
+}
+
 #name:hover{
     font-size: larger;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
+}
+
+div > p > span{
+    transition: text-decoration 0.8s, color 0.8s, background-color 0.8s;
 }
 
 div:hover > p > span{
     text-decoration: underline;
     color: white;
     background-color: black;
-    transition: 0.8s;
 }
 
