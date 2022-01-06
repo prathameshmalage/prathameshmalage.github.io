@@ -18,9 +18,6 @@
     text-decoration: underline;
 }
 
-#AboutMe:hover{
-    font-weight: bolder;
-}
 
 #Background:hover{
     font-weight: bolder;
@@ -44,5 +41,12 @@
     font-size: larger;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+}
+
+div:hover > p > span{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    transition: 0.8s;
 }
 
