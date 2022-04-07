@@ -1,0 +1,12 @@
+<html>
+    <head>
+        {{ ckeditor.load(pkg_type='basic') }}
+    </head>
+    <body>
+        <h1>This is a blog post</h1>
+        <form method="post" action="">
+            {{ ckeditor.create() }}
+            <input type="submit">
+        </form>
+    </body>
+</html>
